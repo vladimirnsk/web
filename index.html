@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab_1</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Подключение внешнего CSS файла -->
+    <style>
+        .custom-div {
+            background-color: lightblue;
+            padding: 10px;
+            border: 2px solid navy;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .custom-span {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a id="bottomOfpage"></a> <!-- Якорь для ссылки "вверх" -->
+        <h1>ГОСЛИНГ</h1>
+    </header>
+    <main>
+        <!-- Секция "intro" -->
+        <section class="intro">
+            <h4>Райан Гослинг - канадский актёр и музыкант. Дважды номинирован на премию "Оскар" и лауреат премии "Золотой глобус"</h4>
+            <img src="https://i.ytimg.com/vi/hbpREOCDCSY/maxresdefault.jpg" alt="Ryan Gosling">
+        </section>
+        <!-- Секция "filmography" -->
+        <section class="filmography">
+            <h2>Фильмография</h2>
+            <ul>
+                <li>Drive (2011)</li>
+                <li>La La Land (2016)</li>
+                <li>Blade Runner 2049 (2017)</li>
+                <li>The Notebook (2004)</li>
+            </ul>
+        </section>
+        <!-- Секция "quotes" -->
+        <section class="quotes">
+            <h2>Цитаты</h2>
+                <blockquote>"Нет ничего более привлекательного, чем кто-то, кто не боится быть самим собой."</blockquote>
+                <blockquote>"<mark>Иногда</mark> бывает лучше уйти, чем извиняться."</blockquote>
+        </section>
+        
+        <!-- Нумерованный список -->
+        <ol type="A" start="27">
+            <li>Барби <br>2023</li>
+            <li>Человек на луне<br>2018</li>
+            <li>Бегущий по лезвию 2049<br>2017</li>
+          </ol>
+          
+          <!-- Ссылка "тык" -->
+          <a href="https://uploads.dailydot.com/2018/10/olli-the-polite-cat.jpg?auto=compress&fm=pjpg" target="_blank"
+          title="Не нажимай на меня">тык</a><br>
+          
+          <!-- Ссылка "жмяк" -->
+          <a href="/about.html" target="_blank">жмяк</a><br>
+          
+          <!-- Таблица -->
+          <table>
+            <thead >
+                <tr>
+                    <th colspan="3">text</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <!-- Блок div -->
+        <div class="custom-div">Заполнение блока div интересным содержимым.</div>
+        
+        <!-- Элемент span -->
+        <span class="custom-span">Текст в элементе span с интересным стилем.</span>
+        
+        <!-- Форма 1 -->
+        <form method="post">
+            <label>
+                Введите дату
+            </label>    
+            <input type="date" min="2024-03-01">
+        </form>
+    
+        <!-- Форма 2 -->
+        <form method="post">
+            <label>
+                <input type="radio" name="stateButton">
+                GET
+            </label><br>
+    
+            <label>
+                <input type="radio" name="stateButton" checked>
+                POST
+            </label>
+        </form>
+    
+        <!-- Кнопки -->
+        <button>Отправить</button>
+        <button>Сбросить</button>
+        
+        <!-- Параграф с тегом времени -->
+        <p><time>1980-11-12</time> Родился Райан Томас Гослинг в больнице Святого Иосифа в Лондоне, провинция Онтарио, в семье Томаса Рэя Гослинга,</p>
+        
+        <!-- Блок детали -->
+        <details>
+            <summary>Слово эксперта</summary>
+            <!-- Предварительно отформатированный текст -->
+            <pre>
+            ____________________________
+            Я эксперт в своей области.  
+            ----------------------------
+                   \   ^__^
+                    \  (oo)\_______
+                       (__)\       )\/\
+                           ||----w |
+                           ||     ||
+            </pre>
+            <figure>
+                <img src="/img/image_1.jpg" alt="Gosling">
+                <figcaption>ГОСЛИНГ</figcaption>
+            </figure>
+        </details>
+        <div id="heart"></div>
+        <!-- Ссылка "вверх" -->
+        <a href="#bottomOfpage">вверх</a><br>
+    </main>
+    <footer>
+        <p>© 2024 Гослинг Фильмз. Все права защищены.</p>
+    </footer>
+</body>
+</html>
